@@ -1,0 +1,51 @@
+h1{
+	color: darkred;
+}
+
+body{
+	background-color: #ffccff;
+	font-family: sans-serif;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	background-color: aliceblue;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	color: black;
+	padding: 20px;
+	text-align: center;
+	float: left;
+}
+
+li a:hover{
+	color: darkgray;
+	background-color: darkred;
+}
+
+img.social:hover{
+	opacity: .65;
+}
+
+div.section{
+	display: block;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border: 5px;
+	border-style: solid;
+	border-color: green;
+}
+
+
